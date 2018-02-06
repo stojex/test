@@ -29,7 +29,7 @@ Alternatively,
 
 If you want to embed images, this is how you do it:
 
-![Image of Yaktocat](https://github.com/stojex/test/img/yaktocat.png)
+![Image of Yaktocat](https://github.com/stojex/test/blob/master/img/yaktocat.png)
 
 
 # Structured documents
