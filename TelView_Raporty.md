@@ -95,7 +95,7 @@ Parametr Automatyczne potwierdzanie wprowadzonych danych umożliwia włączenie/
 
 Parametr Transpozycja tabeli umożliwia włączenie/wyłączenie transpozycji (zamianę wierszy i kolumn) prezentowanych danych raportowych.
 
-![Odwrócenie osi czasu](/img/TelView_Raporty_Okno_Edycji_Transpozycja_tabeli.png)
+![Transpozycja tabeli](/img/TelView_Raporty_Okno_Edycji_Transpozycja_tabeli.png)
 
 #### Ukrywanie kolumny z opisem
 
