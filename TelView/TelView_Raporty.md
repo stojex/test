@@ -3,24 +3,24 @@ Raporty umożliwiają sprawne tworzenie zestawów danych raportowych, prezentowa
 
 ## Tworzenie raportu
 Przygotowanie raportu sprowadza się do sparametryzowania opcji i listy zmiennych, które będą prezentowane w trybie prezentacji danych. Okno edycyjne raportu prezentuje się następująco:
-![Okno raportu](/img/TelView_Raporty_Okno_Edycji.png)
+![Okno raportu](/TelView/img/TelView_Raporty_Okno_Edycji.png)
 
 Przejdziemy teraz po wszystkich elementach okna edycji i zobaczymy jak te opcje wpływają na wygląd naszego raportu.
 
 ### Tytuł
 Parametr Tytuł pozwala na zdefiniowanie tytułu okna, który zostanie wyświetlony w trybie prezentacji danych
 
-![Tytuł okna raportu](/img/TelView_Raporty_Okno_Edycji_Tytuł_Okna.png)
+![Tytuł okna raportu](/TelView/img/TelView_Raporty_Okno_Edycji_Tytuł_Okna.png)
 
 #### Typ danych
 Parametr Typ danych określa rodzaj prezentowanych danych (bieżące, archiwalne, godzinowe, dobowe, miesięczne, okresowe). Dla wartości archiwanych należy dodatkowo zdefiniować w polu Okres archiwizacji czas (w minutach).
 
 Na poniższych zrzutach zaprezentowałem jak zmieniają się opcję dostępne dla poszczególnych typów danych. Dla wartości bieżących dostępnych opcji jest najmniej. Działanie poszczególnych opcji wyjaśnione jest w dalszej części dokumentu.
-![Typ danych: bieżące](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
+![Typ danych: bieżące](/TelView/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
 Dla danych archiwalnych musimy zdefiniować okres archiwizacji. Jeśli w module TelSrv mamy zdefiniowaną archiwizację częstszą np. co 1 minutę, to raport ten będzie agregował te dane do np. 5 minut w sposób wybrany w [Funkcji archiwów](/TelView_Raporty.md#funkcja-archiw%C3%B3w).
-![Typ danych: archiwalne](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
+![Typ danych: archiwalne](/TelView/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
 Dla danych raportowych opcje są identyczne dla każdego typu danych. Dla danych raportowych pojawia nam się dodatkowa opcja [Dowolny zakres danych](/TelView_Raporty.md#dowolny-zakres-danych).
-![Typ danych: raportowe](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
+![Typ danych: raportowe](/TelView/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
 
 #### Dowolny zakres danych
 
@@ -32,11 +32,11 @@ Parametr Dowolny zakres danych definiuje zakres prezentowania danych w trybie pr
 W niektórych branżach (np. gazowniczej) doba rozumiana jest jako czas w godzinach 6:00 do godziny 6:00 następnego dnia. By raporty uwzględniały taką definicję doby została wprowadzona opcja "Godzina bazowa". Parametr Godzina bazowa pozwala na zdefiniowanie początkowej godziny doby. Opcja ta będzie dostępna wyłącznie dla danych raportowych godzinowych i przy wyłączonej opcji Dowolny zakres danych.  
 
 Przykładowe uruchomienie schematu z godziną bazową 0. Jest to wartość domyślna.
-![Godzina bazowa 0](/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_0.png)
+![Godzina bazowa 0](/TelView/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_0.png)
 Przykładowe uruchomienie schematu z godziną bazową 6. Raport zostanie otworzony w zakresie od godziny 6:00 do godziny 5:00 następnego dnia.
-![Godzina bazowa 6](/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_6.png)
+![Godzina bazowa 6](/TelView/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_6.png)
 W branży gazowniczej 1 lipca 2012 roku zmieniła się definicja doby gazowej z godziny 22-22 na godzinę 6-6. W związku z tym w systemie TelWin SCADA została wprowadzona automatyczna opcja zmiany godziny bazowej 22 na godzinę 6. Dlatego tak zdefiniowany raport otworzy się na godzinę 6 rano. Opcja jest automatycznie zaznaczona.
-![Godzina bazowa 22](/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_22.png)
+![Godzina bazowa 22](/TelView/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_22.png)
 
 #### Poziom uprawnień lub grupa użytkowników
 
@@ -95,7 +95,7 @@ Parametr Automatyczne potwierdzanie wprowadzonych danych umożliwia włączenie/
 
 Parametr Transpozycja tabeli umożliwia włączenie/wyłączenie transpozycji (zamianę wierszy i kolumn) prezentowanych danych raportowych.
 
-![Transpozycja tabeli](/img/TelView_Raporty_Okno_Edycji_Transpozycja_tabeli.png)
+![Transpozycja tabeli](/TelView/img/TelView_Raporty_Okno_Edycji_Transpozycja_tabeli.png)
 
 #### Ukrywanie kolumny z opisem
 
@@ -107,7 +107,7 @@ Parametr Ignorowanie wartości nieznanych spowoduje ignorowanie nieznanych warto
 
 #### Odwrócenie osi czasu
 Parametr Odwrócenie osi czasu umożliwia wyświetlenie danych w odwróconej kolejności względem czasu (od najpóźniejszych do najwcześniejszych).
-![Odwrócenie osi czasu](/img/TelView_Raporty_Okno_Edycji_Odwrócenie_Osi_Czasu.png)
+![Odwrócenie osi czasu](/TelView/img/TelView_Raporty_Okno_Edycji_Odwrócenie_Osi_Czasu.png)
 
 #### Ukrywanie wierszy z wartościami nieznanymi
 
