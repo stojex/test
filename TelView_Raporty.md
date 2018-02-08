@@ -1,4 +1,4 @@
-# TelView - wbudowane raporty
+# TelView - Raporty
 Raporty umożliwiają sprawne tworzenie zestawów danych raportowych, prezentowanych w formie tabularycznej. Na raporcie tym mogą być prezentowane dane bieżące, archiwalne, raportowe: godzinowe, dobowe, miesięczne i okresowe.
 
 ## Tworzenie raportu
