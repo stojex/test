@@ -1,0 +1,2 @@
+# TelSrv - Raportowanie parametrów
+Treść

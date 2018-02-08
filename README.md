@@ -1,7 +1,12 @@
 # TelWin SCADA - przykładowe instrukcje
 
-[Raporty](/TelView_Raporty.md)
+## Raportowanie w systemie TelWin SCADA
+Jak jak wykonać raportowanie w systemie od początku do końca:
+- [TelSrv - Raportowanie parametrów](/TelSrv/TelSrv_Raportowanie_parametrów.md) 
+- [TelView - Raporty](/TelView/TelView_Raporty.md) 
+- [TelView - Schematy z wartościami raportowymi](/TelView/TelView_Schematy_z_wartościami_raportowymi.md) 
 
+# Structured documents
 
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 
@@ -23,9 +28,6 @@ Alternatively,
   - Like this
   - And this
   
-
-# Structured documents
-
 Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
 
 ### This is a third-tier heading
