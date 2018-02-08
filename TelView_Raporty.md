@@ -15,7 +15,7 @@ Parametr Tytuł pozwala na zdefiniowanie tytułu okna, który zostanie wyświetl
 #### Typ danych
 Parametr Typ danych określa rodzaj prezentowanych danych (bieżące, archiwalne, godzinowe, dobowe, miesięczne, okresowe). Dla wartości archiwanych należy dodatkowo zdefiniować w polu Okres archiwizacji czas (w minutach).
 
-Na poniższych zrzutach zaprezentowałem jak zmieniają się opcję dostępne dla poszczególnych typów danych:
+Na poniższych zrzutach zaprezentowałem jak zmieniają się opcję dostępne dla poszczególnych typów danych. Dla wartości bieżących dostępnych opcji jest najmniej. Działanie poszczególnych opcji wyjaśnione jest w dalszej części dokumentu.
 ![Typ danych: bieżące](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
 Dla danych archiwalnych musimy zdefiniować okres archiwizacji. Jeśli w module TelSrv mamy zdefiniowaną archiwizację częstszą np. co 1 minutę, to raport ten będzie agregował te dane do np. 5 minut w sposób wybrany w [Funkcji archiwów](/TelView_Raporty.md#funkcja-archiw%C3%B3w).
 ![Typ danych: archiwalne](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
@@ -95,6 +95,8 @@ Parametr Automatyczne potwierdzanie wprowadzonych danych umożliwia włączenie/
 
 Parametr Transpozycja tabeli umożliwia włączenie/wyłączenie transpozycji (zamianę wierszy i kolumn) prezentowanych danych raportowych.
 
+![Odwrócenie osi czasu](/img/TelView_Raporty_Okno_Edycji_Transpozycja_tabeli.png)
+
 #### Ukrywanie kolumny z opisem
 
 Parametr Ukrywanie kolumny z opisem umożliwia ukrycie tej kolumny w trybie prezentacji.
@@ -104,8 +106,8 @@ Parametr Ukrywanie kolumny z opisem umożliwia ukrycie tej kolumny w trybie prez
 Parametr Ignorowanie wartości nieznanych spowoduje ignorowanie nieznanych wartości podczas liczenia wartości określonych przez funkcje.
 
 #### Odwrócenie osi czasu
-
 Parametr Odwrócenie osi czasu umożliwia wyświetlenie danych w odwróconej kolejności względem czasu (od najpóźniejszych do najwcześniejszych).
+![Odwrócenie osi czasu](/img/TelView_Raporty_Okno_Edycji_Odwrócenie_Osi_Czasu.png)
 
 #### Ukrywanie wierszy z wartościami nieznanymi
 
