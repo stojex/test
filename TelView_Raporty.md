@@ -5,7 +5,7 @@ Raporty umożliwiają sprawne tworzenie zestawów danych raportowych, prezentowa
 Przygotowanie raportu sprowadza się do sparametryzowania opcji i listy zmiennych, które będą prezentowane w trybie prezentacji danych. Okno edycyjne raportu prezentuje się następująco:
 
 
-####Tytuł
+###Tytuł
 Parametr Tytuł pozwala na zdefiniowanie tytułu okna, który zostanie wyświetlony w trybie prezentacji danych
 
 
