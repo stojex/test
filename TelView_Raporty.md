@@ -29,10 +29,14 @@ Parametr Dowolny zakres danych definiuje zakres prezentowania danych w trybie pr
 
 
 #### Godzina bazowa
+W niektórych branżach (np. gazowniczej) doba rozumiana jest jako czas w godzinach 6:00 do godziny 6:00 następnego dnia. By raporty uwzględniały taką definicję doby została wprowadzona opcja "Godzina bazowa". Parametr Godzina bazowa pozwala na zdefiniowanie początkowej godziny doby. Opcja ta będzie dostępna wyłącznie dla danych raportowych godzinowych i przy wyłączonej opcji Dowolny zakres danych.  
 
-Parametr Godzina bazowa pozwala na zdefiniowanie początkowej godziny doby. Opcja ta będzie dostępna wyłącznie dla danych raportowych godzinowych i przy wyłączonej opcji Dowolny zakres danych.
-
-
+Przykładowe uruchomienie schematu z godziną bazową 0. Jest to wartość domyślna.
+![Godzina bazowa 0](/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_0.png)
+Przykładowe uruchomienie schematu z godziną bazową 6. Raport zostanie otworzony w zakresie od godziny 6:00 do godziny 5:00 następnego dnia.
+![Godzina bazowa 6](/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_6.png)
+W branży gazowniczej 1 lipca 2012 roku zmieniła się definicja doby gazowej z godziny 22-22 na godzinę 6-6. W związku z tym w systemie TelWin SCADA została wprowadzona automatyczna opcja zmiana godziny 22 na godzinę 6. Dlatego tak zdefiniowany raport otworzy się na godzinę 6 rano. Opcja jest automatycznie zaznaczona.
+![Godzina bazowa 22](/img/TelView_Raporty_Okno_Edycji_Godzina_bazowa_22.png)
 
 #### Poziom uprawnień lub grupa użytkowników
 
