@@ -1,20 +1,23 @@
 # TelView - wbudowane raporty
-Raporty umożliwiają sprawne tworzenie zestawów danych raportowych, prezentowanych w formie tabularycznej. Na raporcie tym mogą być prezentowane dane archiwalne, raportowe: godzinowe, dobowe, miesięczne i okresowe.
+Raporty umożliwiają sprawne tworzenie zestawów danych raportowych, prezentowanych w formie tabularycznej. Na raporcie tym mogą być prezentowane dane bieżące, archiwalne, raportowe: godzinowe, dobowe, miesięczne i okresowe.
 
 ## Tworzenie raportu
 Przygotowanie raportu sprowadza się do sparametryzowania opcji i listy zmiennych, które będą prezentowane w trybie prezentacji danych. Okno edycyjne raportu prezentuje się następująco:
+![Okno raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji.png)
 
+Przejdziemy teraz po wszystkich elementach okna edycji i zobaczymy jak te opcje wpływają na wygląd naszego raportu.
 
 ### Tytuł
 Parametr Tytuł pozwala na zdefiniowanie tytułu okna, który zostanie wyświetlony w trybie prezentacji danych
 
-
+![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Tytuł_Okna.png)
 
 #### Typ danych
-
 Parametr Typ danych określa rodzaj prezentowanych danych (bieżące, archiwalne, godzinowe, dobowe, miesięczne, okresowe). Dla wartości archiwanych należy dodatkowo zdefiniować w polu Okres archiwizacji czas (w minutach).
 
-
+![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
+![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
+![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
 
 #### Dowolny zakres danych
 
