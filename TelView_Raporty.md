@@ -15,8 +15,11 @@ Parametr Tytuł pozwala na zdefiniowanie tytułu okna, który zostanie wyświetl
 #### Typ danych
 Parametr Typ danych określa rodzaj prezentowanych danych (bieżące, archiwalne, godzinowe, dobowe, miesięczne, okresowe). Dla wartości archiwanych należy dodatkowo zdefiniować w polu Okres archiwizacji czas (w minutach).
 
+Na poniższych zrzutach zaprezentowałem jak zmieniają się opcję dostępne dla poszczególnych typów danych:
 ![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
+Dla danych archiwalnych musimy zdefiniować okres archiwizacji. Jeśli w module TelSrv mamy zdefiniowaną archiwizację częstszą np. co 1 minutę, to raport ten będzie agregował te dane do np. 5 minut w sposób wybrany w [Funkcji archiwów](https://github.com/stojex/test/blob/master/TelView_Raporty.md#funkcja-archiw%C3%B3w)
 ![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
+Dla danych raportowych opcje są identyczne dla każdego typu danych.
 ![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
 
 #### Dowolny zakres danych
@@ -62,6 +65,8 @@ zdefiniowanym tekstem, w którym możemy korzystać z następujących parametró
 Wartość w kolumnie Mnożnik będzie brana pod uwagę w trybie uruchomieniowym na dwa sposoby. Pierwszy z nich dotyczy przemnożenia otrzymanych wartości ze źródła danych przez bezwzględną wartość mnożnika (nie będzie brany pod uwagę znak ‘-‘ przed wartością mnożnika). Drugi sposób dotyczy wyliczenia wartości grupy. Znak ‘-‘ będzie decydował, czy wartość elementu zostanie dodana do grupy, czy też odjęta od niej.
 Kolumna Format pozwala na zdefiniowanie formatu wyświetlania wartości w trybie uruchomieniowym. Zasada jest identyczna jak w przypadku elementu Pomiar. Wartość 10 oznaczać będzie, że liczba będzie wyświetlona przez maksymalnie dziesięć cyfr. Wartość 8.2 oznaczać, będzie liczbę składającą się z pięciu cyfr i dwóch po przecinku (jeden znak zostanie wykorzystany jako separator liczby).
 Kolumna Czcionka eksportu pozwala na wybranie czcionki, która zostanie wykorzystana podczas eksportu prezentowanych wartości do arkusza kalkulacyjnego Microsoft Excel.
+
+#### Funkcja archiwów
 
 
 ### Parametry prezentacji listy wybranych zmiennych
@@ -115,47 +120,3 @@ Grupa parametrów Kontrola danych raportowych pozwala na zdefiniowanie Dopuszcza
 UWAGA!!!
 
 Zaznaczenie wiersza na liście wybranych zmiennych, a następnie dodanie lub wstawienie nowej zmiennej z listy dostępnych zmiennych, spowoduje dodanie nowej zmiennej z parametrami zmiennej zaznaczonej.
-
-
-
-
-You can use one `#` all the way up to `######` six for different heading sizes.
-
-If you'd like to quote someone, use the > character before the line:
-
-> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
-> - Captain Janeway
-
-There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
-
-    if (isAwesome){
-      return true
-    }
-
-GitHub also supports something called code fencing, which allows for multiple lines without indentation:
-
-```
-if (isAwesome){
-  return true
-}
-```
-
-And if you'd like to use syntax highlighting, include the language:
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-
-GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!
-
-But I have to admit, tasks lists are my favorite:
-
-- [x] This is a complete item
-- [ ] This is an incomplete item
-
-When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!
-
-And, of course emoji! :sparkles: :camel: :boom:
