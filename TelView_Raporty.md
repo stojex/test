@@ -10,17 +10,17 @@ Przejdziemy teraz po wszystkich elementach okna edycji i zobaczymy jak te opcje 
 ### Tytuł
 Parametr Tytuł pozwala na zdefiniowanie tytułu okna, który zostanie wyświetlony w trybie prezentacji danych
 
-![Tytuł okna raportu](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Tytuł_Okna.png)
+![Tytuł okna raportu](/img/TelView_Raporty_Okno_Edycji_Tytuł_Okna.png)
 
 #### Typ danych
 Parametr Typ danych określa rodzaj prezentowanych danych (bieżące, archiwalne, godzinowe, dobowe, miesięczne, okresowe). Dla wartości archiwanych należy dodatkowo zdefiniować w polu Okres archiwizacji czas (w minutach).
 
 Na poniższych zrzutach zaprezentowałem jak zmieniają się opcję dostępne dla poszczególnych typów danych:
-![Typ danych: bieżące](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
-Dla danych archiwalnych musimy zdefiniować okres archiwizacji. Jeśli w module TelSrv mamy zdefiniowaną archiwizację częstszą np. co 1 minutę, to raport ten będzie agregował te dane do np. 5 minut w sposób wybrany w [Funkcji archiwów](https://github.com/stojex/test/blob/master/TelView_Raporty.md#funkcja-archiw%C3%B3w).
-![Typ danych: archiwalne](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
-Dla danych raportowych opcje są identyczne dla każdego typu danych. Dla danych raportowych pojawia nam się dodatkowa opcja [Dowolny zakres danych](https://github.com/stojex/test/blob/master/TelView_Raporty.md#dowolny-zakres-danych).
-![Typ danych: raportowe](https://github.com/stojex/test/blob/master/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
+![Typ danych: bieżące](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
+Dla danych archiwalnych musimy zdefiniować okres archiwizacji. Jeśli w module TelSrv mamy zdefiniowaną archiwizację częstszą np. co 1 minutę, to raport ten będzie agregował te dane do np. 5 minut w sposób wybrany w [Funkcji archiwów](/TelView_Raporty.md#funkcja-archiw%C3%B3w).
+![Typ danych: archiwalne](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
+Dla danych raportowych opcje są identyczne dla każdego typu danych. Dla danych raportowych pojawia nam się dodatkowa opcja [Dowolny zakres danych](/TelView_Raporty.md#dowolny-zakres-danych).
+![Typ danych: raportowe](/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
 
 #### Dowolny zakres danych
 
