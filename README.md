@@ -1,10 +1,19 @@
 # TelWin SCADA - przykładowe instrukcje
+## Spis treści
+  [Raportowanie w systemie TelWin SCADA](README.md#raportowanie-w-systemie-telwin-scada)
+  [Instalacja TelWinWeb Interface](README.md#instalacja-telwinweb-interface)
 
-## Raportowanie w systemie TelWin SCADA
-Jak jak wykonać raportowanie w systemie od początku do końca:
+### Raportowanie w systemie TelWin SCADA
+Jak wykonać raportowanie w systemie od początku do końca:
 - [TelSrv - Raportowanie parametrów](/TelSrv/TelSrv_Raportowanie_parametrów.md) 
 - [TelView - Raporty](/TelView/TelView_Raporty.md) 
 - [TelView - Schematy z wartościami raportowymi](/TelView/TelView_Schematy_z_wartościami_raportowymi.md) 
+
+### Instalacja TelWinWeb Interface
+Tu będzie jakaś instrukcja instalacji
+
+
+
 
 # Structured documents
 
