@@ -17,9 +17,9 @@ Parametr Typ danych określa rodzaj prezentowanych danych (bieżące, archiwalne
 
 Na poniższych zrzutach zaprezentowałem jak zmieniają się opcję dostępne dla poszczególnych typów danych. Dla wartości bieżących dostępnych opcji jest najmniej. Działanie poszczególnych opcji wyjaśnione jest w dalszej części dokumentu.
 ![Typ danych: bieżące](/TelView/img/TelView_Raporty_Okno_Edycji_Typ_Danych_bieżące.png)
-Dla danych archiwalnych musimy zdefiniować okres archiwizacji. Jeśli w module TelSrv mamy zdefiniowaną archiwizację częstszą np. co 1 minutę, to raport ten będzie agregował te dane do np. 5 minut w sposób wybrany w [Funkcji archiwów](/TelView_Raporty.md#funkcja-archiw%C3%B3w).
+Dla danych archiwalnych musimy zdefiniować okres archiwizacji. Jeśli w module TelSrv mamy zdefiniowaną archiwizację częstszą np. co 1 minutę, to raport ten będzie agregował te dane do np. 5 minut w sposób wybrany w [Funkcji archiwów](/TelView/TelView_Raporty.md#funkcja-archiw%C3%B3w).
 ![Typ danych: archiwalne](/TelView/img/TelView_Raporty_Okno_Edycji_Typ_Danych_archiwalne.png)
-Dla danych raportowych opcje są identyczne dla każdego typu danych. Dla danych raportowych pojawia nam się dodatkowa opcja [Dowolny zakres danych](/TelView_Raporty.md#dowolny-zakres-danych).
+Dla danych raportowych opcje są identyczne dla każdego typu danych. Dla danych raportowych pojawia nam się dodatkowa opcja [Dowolny zakres danych](/TelView/TelView_Raporty.md#dowolny-zakres-danych).
 ![Typ danych: raportowe](/TelView/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
 
 #### Dowolny zakres danych
@@ -126,3 +126,6 @@ Grupa parametrów Kontrola danych raportowych pozwala na zdefiniowanie Dopuszcza
 UWAGA!!!
 
 Zaznaczenie wiersza na liście wybranych zmiennych, a następnie dodanie lub wstawienie nowej zmiennej z listy dostępnych zmiennych, spowoduje dodanie nowej zmiennej z parametrami zmiennej zaznaczonej.
+
+
+[Powrót do listy](/README.md)
