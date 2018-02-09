@@ -114,7 +114,7 @@ Parametr Format etykiety czasowej kolumn pozwala na zmianę domyślnego formatu 
 Parametr Wyróżnianie braku kompletności wartości raportowej umożliwia włączenie/wyłączenie wyświetlenia braku kompletności wartości raportowej, w postaci zmiany koloru tekstu dla wartości niekompletnej.
 
 #### Automatyczne aktualizowanie wprowadzonej wartości raportowej
-Parametr Automatyczne aktualizowanie wprowadzonej wartości raportowej umożliwia włączenie/wyłączenie automatycznego potwierdzania zmienionych wartości.
+Parametr *Automatyczne aktualizowanie wprowadzonej wartości raportowej* umożliwia włączenie/wyłączenie automatycznego przesyłania zmodyfikowanej wartości do źródła. W przypadku wyłączenia opcji, użytkownik, w celu przesłania wprowadzonej wartości do źródła, musi ręcznie uruchomić mechanizm aktualizowania przy pomocy przycisku znajdującego się na pasku narzędziowym raportu.
 
 #### Transpozycja tabeli
 Parametr Transpozycja tabeli umożliwia włączenie/wyłączenie transpozycji (zamianę wierszy i kolumn) prezentowanych danych raportowych.
