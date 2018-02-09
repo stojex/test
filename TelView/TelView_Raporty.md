@@ -87,6 +87,21 @@ Kolumna Funkcja grupy.
 #### Czcionka
 Kolumna *Czcionka* eksportu pozwala na wybranie czcionki, która zostanie wykorzystana podczas eksportu prezentowanych wartości do arkusza kalkulacyjnego Microsoft Excel.
 
+### Edycja listy wybranych zmiennych. 
+Za pomocą menu kontekstowego na liście wybranych zmiennych istnieje możliwość kopiowania, wklejania, usuwania, blokowania/odblokowywania modyfikacji wartości w trybie podglądu danych raportowych, grupowego modyfikowania parametrów zmiennych raportu i importu zmiennych z pliku: 
+
+Wywołanie funkcji Zmiana parametrów spowoduje wywołanie okna dialogowego umożliwiającego modyfikację parametrów dla zaznaczonych wierszy na liście wybranych zmiennych. 
+
+Przed wywołaniem okna następuje analiza zaznaczonych zmiennych. Jeżeli parametr powtórzy się we wszystkich zaznaczonych zmiennych, zostanie on zablokowany. Za pomocą przycisku Odblokuj parametry można zresetować okno dialogowe i odblokować wszystkie parametry. 
+
+Wywołanie funkcji Import zmiennych z pliku spowoduje otwarcie okna dialogowego do wyboru pliku w formacie TXT, z którego zostaną zaimportowane zmienne. Importowane parametry: 
+- źródło 
+- zmienna 
+
+Format odczytu danych z pliku tekstowego: parametry odzielone znakiem tabulacji, np.
+Targi[TAB]PP1 
+
+
 
 ## Parametry prezentacji listy wybranych zmiennych
 #### Podsumowanie
@@ -134,6 +149,27 @@ Grupa parametrów Kontrola danych raportowych pozwala na zdefiniowanie Dopuszcza
 
 >UWAGA!!!
 >Zaznaczenie wiersza na liście wybranych zmiennych, a następnie dodanie lub wstawienie nowej zmiennej z listy dostępnych zmiennych, spowoduje dodanie nowej zmiennej z parametrami zmiennej zaznaczonej.
+
+
+## Tryb prezentacji. 
+W trybie prezentacji danych raport będzie wyświetlony zależnie od zdefiniowanego parametru Dowolny zakres danych i parametrów z grupy Kontrola danych raportowych zdefiniowanych w trybie edycji. 
+
+
+Powyższe okno prezentuje pobrane dane raportowe bez włączonej opcji Dowolny zakres danych i włączoną automatyczną kontrolą danych raportowych. Za pomocą przycisków znajdujących się w lewym, górnym rogu okna istnieje możliwość zmiany zakresu prezentowanych danych o domyślny okres dla danego typu danych. Dla raportów godzinowych będzie to doba, dla dobowych i okresowych – miesiąc, a dla miesięcznych – rok. Przyciski z ikonami umożliwiają: eksport prezentowanych danych do formatu PDF, eksport do programu Microsoft Excel, eksport do formatu CSV, eksport do formatu TXT, włączenie/wyłączenie transpozycji eksportowanej tabeli (spowoduje zamianę wierszy i kolumn w tabeli prezentowanych danych raportowych), wydruk raportu oraz włączenie/wyłączenie ukrywania wierszy z wartościami nieznanymi. Zmiana parametru Dopuszczalna różnica spowoduje automatyczne sprawdzenie raportu i wyróżnienie kolorem tych wartości, które względem sąsiednich przekraczają procentowo dopuszczalną różnicę. 
+
+
+
+Powyższe okno prezentuje pobrane dane raportowe z włączoną opcją Dowolny zakres danych i wyłączoną automatyczną kontrolą danych raportowych. Za pomocą pól z datami istnieje możliwość zdefiniowania początku i końca okresu prezentowania danych raportowych. Po zmianie którejkolwiek z dat uaktywniony zostanie przycisk Pobranie, za pomocą którego użytkownik może zainicjować pobranie danych raportowych z wybranego zakresu. Przyciski z ikonami umożliwiają: eksport prezentowanych danych do formatu PDF, eksport do programu Microsoft Excel, eksport do formatu CSV, eksport do formatu TXT, włączenie/wyłączenie transpozycji tabeli (spowoduje zamianę wierszy i kolumn w tabeli prezentowanych danych raportowych i podczas eksportu danych), wydruk raportu oraz włączenie/wyłączenie ukrywania wierszy z wartościami nieznanymi. Zmiana parametru Dopuszczalna różnica musi być zaakceptowana naciśnięciem przycisku powodującego weryfikację danych raportowych. 
+
+W trybie prezentacji danych istnieje możliwość modyfikowania lub wprowadzania wartości raportowych. Aby zablokować/odblokować modyfikowanie wartości raportowych służy opcja "Blokowanie/odblokowywanie mod. wartości". Ręczna zmiana wartości powoduje jednocześnie zablokowanie zmiennej (status Blokada). Naciśnięcie na klawiaturze numerycznej klawisza *, w fazie wprowadzania danych, spowoduje skasowanie wartości wprowadzonej przez operatora (tzw. nastawy ręcznej). Naciśnięcie na klawiaturze znaku „$” (Shift+4), w fazie wprowadzania danych, spowoduje ustawienie wartości nieznanej ze statusem blokada. 
+
+Dane raportowe mogą zostać posortowane według kolumny. Wynikiem jest posortowana lista od A do Z lub od Z do A. By posortować wartości raportowe należy kliknąć na nazwę kolumny, według której dane mają być posortowane, kolejne kliknięcie odwraca porządek sortowania. 
+
+Kolejnym udogodnieniem jest filtracja danych raportowych według określonego wzorca. Uwzględnia ona znaki specjalne *, ? określające wystąpienie odpowiednio dowolnego podciągu i pojedynczego znaku. By dokonać filtracji należy w polu edycyjnym w prawym górnym rogu okienka wpisać słowo, według którego nastąpi filtrowanie i wcisnąć guzik Filtruj. 
+
+Za pomocą menu Widok -> Czcionka istnieje możliwość zmiany domyślnej czcionki listy prezentującej dane raportowe 
+
+
 
 
 [Powrót do listy](/README.md)
