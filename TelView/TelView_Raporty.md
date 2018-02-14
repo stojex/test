@@ -24,7 +24,6 @@ Dla danych raportowych opcje są identyczne dla każdego typu danych. Dla danych
 ![Typ danych: raportowe](/TelView/img/TelView_Raporty_Okno_Edycji_Typ_Danych_raportowe.png)
 
 #### Dowolny zakres danych
-
 Parametr Dowolny zakres danych definiuje zakres prezentowania danych w trybie prezentacji. Zaznaczenie opcji spowoduje w trybie prezentacji wyświetlenie dwóch pól umożliwiających wybranie początku i końca okresu. W przeciwnym razie dane będą prezentowane w domyślnym zakresie. Dla danych godzinowych będzie to doba, dla dobowych i okresowych – miesiąc, a dla danych miesięcznych – rok.
 
 #### Godzina bazowa
@@ -122,9 +121,11 @@ Parametr Transpozycja tabeli umożliwia włączenie/wyłączenie transpozycji (z
 
 #### Ukrywanie kolumny z opisem
 Parametr Ukrywanie kolumny z opisem umożliwia ukrycie tej kolumny w trybie prezentacji.
+![Ukrywanie kolumny z opisem](/TelView/img/TelView_Raporty_Opcja_Ukrywanie_Kolumny_z_Opisem.png)
 
 #### Ukrywanie statusu wartości
 Parametr Ukrywanie statusu wartości umożliwia włączenie/wyłączenie wyświetlania statusów wartości.
+![Ukrywanie statusu wartości](/TelView/img/TelView_Raporty_Opcja_Ukrywanie_Statusu_Wartości.png)
 
 #### Eksport wartości bez statusów
 //TODO: Opis
