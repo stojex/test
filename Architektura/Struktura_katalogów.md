@@ -1,5 +1,5 @@
 # Struktura katalogów w systemie TelWin SCADA
-Domyślnie program instalacyjny umieszcza system TelWin SCADA® w katalogu C:\<Program Files>\Tel-Ster\TelWinX. Poniżej zaprezentuje jednak proponowaną strukturę katalogów, która ułatwia zarządzanie i administrację aplikacją. Podstawowy katalog to np. **C:\TelWin** (może być dowolny inny), a w nim następujące 4 katalogi:
+Domyślnie program instalacyjny umieszcza system TelWin SCADA® w katalogu C:\<Program Files>\Tel-Ster\TelWinX. Poniżej zaprezentuje jednak proponowaną strukturę katalogów, która ułatwia zarządzanie i administrację aplikacją. Podstawowy katalog to np. **C:\TelWin** (może być dowolny inny), a w nim następujące 4 katalogi i w nich podkatalogi:
 - App (katalog aplikacji systemu TelWin):
   - App\Al – katalog dla list alarmów modułu TelView 
   - App\Lib – katalog dla biblioteki elementów modułu TelView 
@@ -31,3 +31,4 @@ W katalogu App umieszczane są pliki konfiguracyjne poszczególnych modułów (r
 
 Część danych poszczególnych modułów jest zapisywana w podkatalogach katalogu App (schematy synoptyczne modułu TelView czy procedury modułu ProcWin). Lokalizacja tych danych może być dowolnie modyfikowana przez administratora systemu TelWin SCADA® przez odpowiednie zapisy w dialogach konfiguracyjnych lub plikach ini odpowiednich modułów. 
 
+[Powrót do listy](/README.md)
