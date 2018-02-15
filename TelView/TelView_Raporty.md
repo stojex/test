@@ -128,7 +128,7 @@ Parametr Ukrywanie statusu wartości umożliwia włączenie/wyłączenie wyświe
 ![Ukrywanie statusu wartości](/TelView/img/TelView_Raporty_Opcja_Ukrywanie_Statusu_Wartości.png)
 
 #### Eksport wartości bez statusów
-//TODO: Opis
+Parametr pozwala zdecydować, czy wartości, które będą eksportowane będą miały znak reprezentujący status wartości inny niż wartość z pomiaru tzn. np. znaki: "?", "!", "*".
 
 #### Ignorowanie wartości nieznanych
 Parametr Ignorowanie wartości nieznanych spowoduje ignorowanie nieznanych wartości podczas liczenia wartości określonych przez funkcje.
