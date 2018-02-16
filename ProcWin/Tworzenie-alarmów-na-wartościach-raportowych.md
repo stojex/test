@@ -1,6 +1,6 @@
 # Tworzenie alarmów na wartościach raportowych
 Wymagania:
-- [ProcWin. Konfiguracja modułu](/ProcWin/ProcWin.%20Konfiguracja-modułu.md) 
+- [ProcWin. Konfiguracja modułu](/ProcWin/ProcWin.-Konfiguracja-modułu.md) 
 - [TODO: ProcWin. Definiowanie zmiennych]
 - [TODO: ProcWin. Tworzenie procedur]
 - [TODO: ProcWin. Operacje na wartościach raportowych]
