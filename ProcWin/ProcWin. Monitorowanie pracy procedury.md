@@ -1,6 +1,6 @@
 # ProcWin. Monitorowanie pracy procedury
 Wymagania:
-- [ProcWin. Konfiguracja modułu](/ProcWin/ProcWin.-Konfiguracja-modułu.md) 
+- [ProcWin. Konfiguracja modułu](/ProcWin/ProcWin.%20Konfiguracja-modułu.md) 
 - [TODO: ProcWin. Definiowanie zmiennych]
 - [TODO: ProcWin. Tworzenie procedur]
 
