@@ -6,19 +6,19 @@
 
 ### Raportowanie w systemie TelWin SCADA
 > Jak wykonać raportowanie w systemie od początku do końca:
-> - [TelSrv - Raportowanie parametrów](/TelSrv/TelSrv_Raportowanie_parametrów.md) 
-> - [TelView - Raporty](/TelView/TelView_Raporty.md) 
-> - [TelView - Schematy z wartościami raportowymi](/TelView/TelView_Schematy_z_wartościami_raportowymi.md) 
+> - [TelSrv - Raportowanie parametrów](/TelSrv/TelSrv-Raportowanie-parametrów.md) 
+> - [TelView - Raporty](/TelView/TelView-Raporty.md) 
+> - [TelView - Schematy z wartościami raportowymi](/TelView/TelView-Schematy-z-wartościami-raportowymi.md) 
 
 ### Instalacja TelWinWeb Interface
 > - Link 1
 
 ### Architektura systemu TelWin SCADA
-> - [Struktura katalogów](/Architektura/Struktura_katalogów.md) 
+> - [Struktura katalogów](/Architektura/Struktura-katalogów.md) 
 > - Link 2
 > - Link 3
 
-### Kolejny temat
-> - Link 1
+### Problemy
+> - [Błąd uruchomienia pomocy](Problemy-i-rozwiązania.md#blad-uruchomienia-pomocy) 
 > - Link 2
 > - Link 3
